@@ -1,0 +1,255 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    color: rgb(195, 195, 195);
+  
+}
+.navbar{
+   
+    height: 100px;
+    border: 2px solid rgb(0, 0, 0);   
+    background-color: black;
+    width: 100%;
+    
+   
+    
+
+}
+mark{
+    background-color: black;
+    color: red;
+    font-size: 1.2em;
+}
+.nav-list{
+    
+    margin-top: 25px; 
+    font-size: 20px;
+    list-style: none;
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    
+
+}
+.nav-list h1{
+    font-size: 40px;
+    font-style: italic;
+    box-shadow: -10px -5px 5px red;
+}
+.nav-list li,h1{
+    padding: 5px 0px 5px 0px;
+    color:red;
+    border-radius: 3px;
+}
+.nav-list li:hover{
+    background-color: rgb(41, 39, 39);
+    font-size: 24px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.back{
+    background-color: black;
+    background-image: url('home.jpg');
+    background-size: cover;
+    height: 1000px;
+    font-size: 30px;
+    margin-top: 0px;
+    
+    
+}
+.hi{
+    font-size: 45px;
+    position: relative;
+    margin-left: 100px;
+    padding: 200px 0px 100px 0px ;
+
+}
+.hi-ct{
+    font-size: 30px;
+}
+.shayri-page{
+    height: 700px;
+    background-image:url(image2.jpg);
+    background-size: cover;
+   
+    
+    
+}
+.hlgt{
+    color: #F2613F;
+}
+.content1{
+    font-style:unset;
+    font-size: 20px;
+    padding-left: 100px;
+    width: 600px;
+    float: right;
+    margin-top:100px;
+    color: #F2613F;
+}
+.shayri-box{
+    float: right;
+    width: 50%;
+    height:600px ;
+    display: grid;
+    justify-content:space-between;
+    align-items:center ;
+   
+}
+.shayri{
+    font-style: italic;
+    font-size: 30px;
+    padding-left: 50px;
+    width: 700px;
+    float: right;
+    margin-top:100px;
+
+}
+.Arz{
+    color:#481E14;
+    font-size: 45px;
+    font-weight: bold;
+    padding: 10px 10px 10px 10px;
+   
+}
+.page3{
+    height: 1000px;
+    background-size: cover;
+    background-image: url(image3.png);
+    border: 2px solid black;
+}
+.s-box3{
+    float: left;
+    width: 50%;
+    height:700px ;
+    display: grid;
+    justify-content:space-between;
+    align-items:center ;
+}
+.c2{
+    float: left;
+}
+.page4{
+    height: 750px;
+    background-color: black;
+    
+}
+.corner1{
+    height: 330px;
+    float:left;
+    border: 1px groove rgb(76, 27, 27);
+    width: 45%;
+    position:relative;
+    top:10px;
+    left:25px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    padding-left: 40px;
+    font-size: 25px ;
+    align-content: center;
+    align-items: center;
+}
+.rot{
+    transform: rotate(-45deg);
+    position: relative; 
+    left:390px;
+    bottom:10px;
+
+}
+.rot2{
+    transform: rotate(-45deg);
+    margin-left: 30px;
+    position: relative; 
+    right:80px;
+    top:65px;
+   
+}
+.corner2{
+    height: 330px;
+    float:right;
+    border-bottom: 1px groove rgb(139, 26, 26);
+    border-right: 1px groove rgb(139, 26, 26);
+    z-index: 0;
+    width: 46%;
+    position: relative;
+    align-content: center;
+    right:20px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    padding-left:40px;
+    font-size: 25px ;
+}
+.page5{
+    background-image: url('image7.png');
+    height: 700px;
+    background-color: black;
+    background-size: contain;
+    
+}
+
+.hi2{
+    font-size: 40px;
+    font-weight: bolder;
+    color: red;
+    position: relative;
+    top:100px;
+    left:30px;
+
+}
+.page6{
+    background-image: url('image8.png');
+    background-size: contain;
+    width: 100%;
+    height: 600px;
+    border: 1px dotted red;
+}
+.content{
+    font-family:Arial, Helvetica, sans-serif;
+    color:whitesmoke;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.hi3{
+    font-size: 40px;
+    font-weight: bolder;
+    color: red;
+    float:right;
+    position: relative;
+    top:150px;
+    right:50px;
+ 
+
+}
+.page7{
+    background-image: url('image9.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 610px;
+}
+.s-box4{
+    float: left;
+    position:relative;
+    left:70px;
+    top:150px;
+    
+    font-size: 25px;
+}
+footer{
+    height: 100px;
+    background-color:#481E14;
+    text-align: center;
+    width: 100%;
+    position: static;
+    bottom: 0px;
+    padding :50px 0px 0px 0px;
+    font-size: 20px;
+    color: white;
+    display:inline;
+    
+    justify-content: space-evenly;
+    
+}
+
+
